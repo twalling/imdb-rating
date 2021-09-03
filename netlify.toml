@@ -1,0 +1,8 @@
+[build]
+  public = "public"
+  functions = "functions"
+
+[[redirects]]
+  from = "/rating"
+  to = "/.netlify/functions/rating"
+  status = 200

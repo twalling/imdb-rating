@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IMDB Rating - Install</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        min-height: 100vh;
+        text-rendering: optimizeSpeed;
+        line-height: 1;
+        font-size: 12px;
+        font-family: Helvetica, sans-serif;
+        padding: 20px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Drag the link to your bookmark bar</p>
+    <a href="javascript:(function()%7Bvar%20parts%20%3D%20window.location.pathname.split('%2F')%3B%0Aif%20(parts.length%20%26%26%20parts.length%20%3E%203)%20%7B%0A%20%20window.open('https%3A%2F%2Fimdb.bitbmo.com%2Frating%3Fid%3D'%20%2B%20parts%5B2%5D)%3B%0A%7D%7D)()%3B">IMDB Rating</a>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "imdb-rating",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "netlify functions:serve"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "hogan.js": "^3.0.2",
+    "lodash": "^4.17.21",
+    "querystring": "^0.2.1",
+    "twilio": "^3.67.1",
+    "url-parse": "^1.5.3"
+  }
+}
